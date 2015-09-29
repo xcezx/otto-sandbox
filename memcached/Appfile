@@ -1,0 +1,8 @@
+application {
+    name = "memcached"
+    type = "docker-external"
+}
+
+customization "docker" {
+    image = "memcached:1.4"
+}

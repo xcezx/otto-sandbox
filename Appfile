@@ -1,0 +1,12 @@
+application {
+    name = "sandbox"
+    type = "php"
+
+    dependency {
+        source = "./mysql"
+    }
+
+    dependency {
+        source = "./memcached"
+    }
+}
